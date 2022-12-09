@@ -7,11 +7,61 @@
     <title>doc</title>
     <style>
         body{
-            background-color: blue;
+            background-color: rgb(249, 237, 250);
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        .flex{
+            max-width: 95%;
+            min-width: 300px;
+            display: flex;
+            flex-direction: row;
+            border-radius: 20px;
+            border: 2px solid #000;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            margin-top: 20px;
+        }
+        .links{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        .links img{
+            width: 70px;
+        }
+        .links .text{
+            text-align: center;
+            padding-left: 30px;
+            padding-top: 10px;
+            font-size: 20px;
+            font-weight: 900;
+        }
+        .fb{
+            background-color: rgba(4, 0, 255, 0.322);
+        }
+        .gm{
+            background-color: rgba(255, 0, 128, 0.151);
         }
     </style>
 </head>
 <body>
-    
+    <div class="links">
+        <a href="">
+            <div class="fb flex">
+                <img src="../img/facebook.png">
+                <p class="text">FACEBOOK</p>
+            </div>
+        </a>
+        <a href="">
+            <div class="gm flex">
+                <img src="../img/whatsapp(2).png">
+                <p class="text">G-MAIL</p>
+            </div>
+        </a>
+    </div>
 </body>
 </html>
